@@ -1,4 +1,4 @@
-# Auto-expand estonian words with accented characters when using an english keyboard layout
+# Auto-expand estonian words with accented characters on OSX when using an english keyboard layout
 
 I use en-US keyboard layout for programming but it's difficult to switch between english and estonian
 layouts all the time (using estonian for chatting).
