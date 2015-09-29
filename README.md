@@ -29,6 +29,8 @@ Full list of estonian words with frequencies from:
 - Run `./import_csv.sh ~/Library/Dictionaries/CoreDataUbiquitySupport/<some hash here>/UserDictionary/local/store/UserDictionary.db`.
   This imports all the words, generates a temporary csv file and imports it into osx's auto-expand db file, ignoring all metadata (like created-at date). Also runs `killall AppleSpell` to force-reload the spelling service.
 
+- Profit. The auto-expand list now contains all the words: ![Keyboard Settings View](example.png)
+
 You need to pass in the location of the dictionary db file to the last command. In Yosemite it's found in `~/Library/Dictionaries/CoreDataUbiquitySupport/<some hash here>/UserDictionary/local/store/UserDictionary.db`. This is an sqlite3 database file. A backup is made in bak/ and it won't be overwritten but subsequent calls to `import_csv.sh`.
 
 Note: Only supports lowercase words because osx's auto-expand is case insensitive and the snippets are used in
