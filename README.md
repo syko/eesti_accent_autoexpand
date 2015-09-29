@@ -13,7 +13,7 @@ Also supports sh and zh.
 ## Sad trombone
 
 It turns out though that there are about 100,000 words containing accented characters in Estonian (including cases and whatnot).
-Including all of those crashes the osx's keyboard settings view and apps like TextEdit.
+Including all of those **crashes the osx's keyboard settings view** and apps like TextEdit.
 
 So we're using the 1000 most common words.
 
