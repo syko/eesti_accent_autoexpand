@@ -34,7 +34,7 @@ Also, it appears that osx's built-in text replacement feature is **not system wi
 
 - Profit. The auto-expand list now contains all the words: ![Keyboard Settings View](example.png)
 
-- Also make sure `Text Replacement` is enabled in the given app. Under `Edit` menu or run `defaults write -g WebAutomaticTextReplacementEnabled -bool true` to enable it for all apps. ![Enable Text Replacement](enable.png)
+- Also make sure `Text Replacement` is enabled in the given app. Under `Edit` menu or run `defaults write -g WebAutomaticTextReplacementEnabled -bool true` to enable it for all apps (the definition of "all" is unknown in this case though). If there's no such option in the `Edit` menu then I'm sorry, you're shit out of luck. ![Enable Text Replacement](enable.png)
 
 You need to pass in the location of the dictionary db file to the last command. In Yosemite it's found in `~/Library/Dictionaries/CoreDataUbiquitySupport/<some hash here>/UserDictionary/local/store/UserDictionary.db`. This is an sqlite3 database file. A backup is made in bak/ and it won't be overwritten but subsequent calls to `import_csv.sh`.
 
